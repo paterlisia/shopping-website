@@ -1,3 +1,14 @@
+/* declare fonts family */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 .w {
     width: 1200px;
     margin: 0 auto;
@@ -37,5 +48,7 @@
 }
 
 .arrow-icon::after {
-    content: '1';
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
 }
