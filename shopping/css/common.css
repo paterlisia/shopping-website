@@ -59,7 +59,6 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
 }
 
 .logo {
@@ -67,7 +66,6 @@
     top: 25px;
     width: 171px;
     height: 61px;
-    background-color: skyblue;
 }
 
 .logo a {
@@ -179,6 +177,7 @@
     height: 465px;
     width: 210px;
     background-color: #c81623;
+    margin-top: 2px;
 }
 
 .dropdown .dd ul li {
@@ -211,4 +210,16 @@
     content: '\e920';
     font-family: 'icomoon';
     margin-left: 10px;
+}
+
+.navitem ul li {
+    float: left;
+}
+
+.navitem ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 25px;
 }
