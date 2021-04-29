@@ -138,3 +138,15 @@
     font-family: 'icomoon';
     margin-left: 10px;
 }
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
