@@ -1,3 +1,5 @@
+/* main model */
+
 .main {
     margin-top: 10px;
     width: 980px;
@@ -89,6 +91,9 @@
     text-overflow: ellipsis;
 }
 
+
+/* recommendation model */
+
 .recom {
     margin-top: 12px;
     height: 163px;
@@ -121,4 +126,36 @@
     height: 145px;
     top: 10px;
     background-color: #ddd;
+}
+
+
+/* floor model */
+
+.family {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
 }
