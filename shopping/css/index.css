@@ -88,3 +88,37 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+.recom {
+    margin-top: 12px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    right: 0;
+    height: 145px;
+    top: 10px;
+    background-color: #ddd;
+}
