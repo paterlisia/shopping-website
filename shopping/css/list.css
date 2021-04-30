@@ -1,3 +1,7 @@
+.nav {
+    overflow: hidden;
+}
+
 .sk {
     position: absolute;
     left: 190px;
@@ -38,4 +42,21 @@
     padding: 0 20px;
     color: #ccc;
     font-size: 14px;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
 }
