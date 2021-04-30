@@ -1,3 +1,5 @@
+/* main model */
+
 .main {
     margin-top: 10px;
     width: 980px;
@@ -89,6 +91,9 @@
     text-overflow: ellipsis;
 }
 
+
+/* recommendation model */
+
 .recom {
     margin-top: 12px;
     height: 163px;
@@ -121,4 +126,89 @@
     height: 145px;
     top: 10px;
     background-color: #ddd;
+}
+
+
+/* floor model */
+
+.family {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    margin-left: 12px;
+}
+
+.col_210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+    height: 361px;
+    text-align: center;
+}
+
+.col_221 {
+    width: 221px;
+    height: 361px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+    height: 361px;
+    text-align: center;
 }
