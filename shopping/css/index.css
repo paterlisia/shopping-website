@@ -9,12 +9,24 @@
     width: 721px;
     height: 455px;
     float: left;
-    background-color: purple;
 }
 
 .newsflash {
     width: 250px;
     height: 455px;
     float: right;
-    background-color: blue;
+}
+
+.news {
+    width: 250px;
+    height: 165px;
+}
+
+.lifeservice {
+    width: 250px;
+    height: 209px;
+}
+
+.bargin {
+    margin-top: 5px;
 }
